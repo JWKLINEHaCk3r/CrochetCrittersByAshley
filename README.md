@@ -2,7 +2,9 @@
 
 A beautiful, fully-featured e-commerce website for handmade crochet products, built with Next.js, TypeScript, and Tailwind CSS. Ready for deployment on Netlify!
 
-![Crochet Critters Logo](./public/logo.png)
+## 🌟 About
+
+Just Mom Crochet - Creating beautiful handmade crochet critters with love!
 
 ## 🌟 Features
 
