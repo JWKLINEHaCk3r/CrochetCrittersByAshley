@@ -1,0 +1,38 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#fce7f3"/>
+  
+  <!-- Rabbit body -->
+  <ellipse cx="200" cy="240" rx="50" ry="70" fill="#ec4899" stroke="#be185d" stroke-width="3"/>
+  
+  <!-- Rabbit head -->
+  <circle cx="200" cy="160" r="45" fill="#f472b6" stroke="#be185d" stroke-width="3"/>
+  
+  <!-- Long ears -->
+  <ellipse cx="180" cy="110" rx="12" ry="35" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+  <ellipse cx="220" cy="110" rx="12" ry="35" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+  <ellipse cx="180" cy="115" rx="6" ry="25" fill="#f9a8d4"/>
+  <ellipse cx="220" cy="115" rx="6" ry="25" fill="#f9a8d4"/>
+  
+  <!-- Eyes -->
+  <circle cx="190" cy="150" r="6" fill="#000"/>
+  <circle cx="210" cy="150" r="6" fill="#000"/>
+  <circle cx="192" cy="148" r="2" fill="#fff"/>
+  <circle cx="212" cy="148" r="2" fill="#fff"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="165" rx="3" ry="2" fill="#be185d"/>
+  
+  <!-- Mouth -->
+  <path d="M200 168 Q195 175 190 170" fill="none" stroke="#be185d" stroke-width="2"/>
+  <path d="M200 168 Q205 175 210 170" fill="none" stroke="#be185d" stroke-width="2"/>
+  
+  <!-- Tail -->
+  <circle cx="200" cy="300" r="15" fill="#f9a8d4" stroke="#be185d" stroke-width="2"/>
+  
+  <!-- Feet -->
+  <ellipse cx="180" cy="300" rx="15" ry="8" fill="#ec4899"/>
+  <ellipse cx="220" cy="300" rx="15" ry="8" fill="#ec4899"/>
+  
+  <text x="200" y="340" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#be185d">Rosie the Rabbit</text>
+  <text x="200" y="370" text-anchor="middle" font-family="Arial" font-size="16" fill="#be185d">$24.99</text>
+</svg>

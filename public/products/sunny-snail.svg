@@ -1,0 +1,28 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#fef3c7"/>
+  
+  <!-- Snail shell -->
+  <circle cx="200" cy="180" r="80" fill="#f59e0b" stroke="#92400e" stroke-width="3"/>
+  <circle cx="200" cy="180" r="60" fill="#fbbf24" stroke="#92400e" stroke-width="2"/>
+  <circle cx="200" cy="180" r="40" fill="#fcd34d" stroke="#92400e" stroke-width="2"/>
+  <circle cx="200" cy="180" r="25" fill="#fde047" stroke="#92400e" stroke-width="1"/>
+  
+  <!-- Snail body -->
+  <ellipse cx="140" cy="230" rx="50" ry="25" fill="#fde047" stroke="#92400e" stroke-width="3"/>
+  
+  <!-- Antennae -->
+  <line x1="120" y1="210" x2="110" y2="190" stroke="#92400e" stroke-width="3"/>
+  <line x1="130" y1="205" x2="125" y2="185" stroke="#92400e" stroke-width="3"/>
+  <circle cx="110" cy="190" r="4" fill="#f59e0b"/>
+  <circle cx="125" cy="185" r="4" fill="#f59e0b"/>
+  
+  <!-- Eyes -->
+  <circle cx="125" cy="215" r="3" fill="#000"/>
+  <circle cx="135" cy="220" r="3" fill="#000"/>
+  
+  <!-- Trail -->
+  <path d="M80 250 Q120 240 160 250 Q200 260 240 250" fill="none" stroke="#d1d5db" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <text x="200" y="320" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#92400e">Sunny the Snail</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial" font-size="16" fill="#92400e">$28.99</text>
+</svg>

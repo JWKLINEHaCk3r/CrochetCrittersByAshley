@@ -1,0 +1,28 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f0fdf4"/>
+  <!-- Dinosaur body -->
+  <ellipse cx="200" cy="220" rx="90" ry="60" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+  <!-- Long neck -->
+  <ellipse cx="200" cy="140" rx="25" ry="80" fill="#22c55e" stroke="#15803d" stroke-width="3"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="80" rx="30" ry="25" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+  <!-- Eyes -->
+  <circle cx="190" cy="75" r="5" fill="#000"/>
+  <circle cx="210" cy="75" r="5" fill="#000"/>
+  <!-- Smile -->
+  <path d="M185 85 Q200 95 215 85" fill="none" stroke="#15803d" stroke-width="2"/>
+  <!-- Long tail -->
+  <ellipse cx="120" cy="240" rx="60" ry="20" fill="#22c55e" stroke="#15803d" stroke-width="3"/>
+  <ellipse cx="60" cy="250" rx="40" ry="15" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+  <!-- Legs -->
+  <ellipse cx="160" cy="270" rx="15" ry="25" fill="#16a34a"/>
+  <ellipse cx="200" cy="275" rx="15" ry="25" fill="#16a34a"/>
+  <ellipse cx="240" cy="270" rx="15" ry="25" fill="#16a34a"/>
+  <ellipse cx="280" cy="265" rx="15" ry="25" fill="#16a34a"/>
+  <!-- Spots -->
+  <circle cx="170" cy="200" r="6" fill="#dcfce7"/>
+  <circle cx="220" cy="210" r="6" fill="#dcfce7"/>
+  <circle cx="200" cy="180" r="6" fill="#dcfce7"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#15803d">Daisy the Dinosaur</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial" font-size="16" fill="#15803d">$38.99</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6fffa"/>
+      <stop offset="50%" stop-color="#b2f5ea"/>
+      <stop offset="100%" stop-color="#81e6d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#heroGrad)"/>
+  
+  <!-- Multiple critters in a happy scene -->
+  
+  <!-- Sunny the Snail (left) -->
+  <g transform="translate(100, 150)">
+    <circle cx="0" cy="0" r="40" fill="#fbbf24"/>
+    <path d="M-20 -20 Q0 -40 20 -20 Q40 0 20 20 Q0 40 -20 20 Q-40 0 -20 -20" stroke="#f59e0b" stroke-width="3" fill="none"/>
+    <ellipse cx="25" cy="15" rx="20" ry="12" fill="#facc15"/>
+    <ellipse cx="35" cy="20" rx="8" ry="5" fill="#fbbf24"/>
+    <circle cx="38" cy="18" r="2" fill="#000"/>
+    <circle cx="42" cy="22" r="2" fill="#000"/>
+  </g>
+  
+  <!-- Bella the Bear (center-left) -->
+  <g transform="translate(250, 180)">
+    <circle cx="0" cy="0" r="35" fill="#92400e"/>
+    <circle cx="-15" cy="-20" r="12" fill="#92400e"/>
+    <circle cx="15" cy="-20" r="12" fill="#92400e"/>
+    <circle cx="-8" cy="-18" r="3" fill="#000"/>
+    <circle cx="8" cy="-18" r="3" fill="#000"/>
+    <ellipse cx="0" cy="-10" rx="4" ry="3" fill="#000"/>
+    <path d="M-5 -5 Q0 0 5 -5" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- Rosie the Rabbit (center) -->
+  <g transform="translate(400, 160)">
+    <ellipse cx="0" cy="0" rx="30" ry="25" fill="#fda4af"/>
+    <ellipse cx="-8" cy="-30" rx="6" ry="20" fill="#fda4af"/>
+    <ellipse cx="8" cy="-30" rx="6" ry="20" fill="#fda4af"/>
+    <circle cx="-8" cy="-5" r="3" fill="#000"/>
+    <circle cx="8" cy="-5" r="3" fill="#000"/>
+    <ellipse cx="0" cy="3" rx="3" ry="2" fill="#000"/>
+    <path d="M-4 8 Q0 12 4 8" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- Finn the Fox (center-right) -->
+  <g transform="translate(550, 170)">
+    <ellipse cx="0" cy="0" rx="28" ry="22" fill="#ea580c"/>
+    <path d="M-15 -15 L-25 -25 L-10 -20 Z" fill="#ea580c"/>
+    <path d="M15 -15 L25 -25 L10 -20 Z" fill="#ea580c"/>
+    <circle cx="-8" cy="-5" r="3" fill="#000"/>
+    <circle cx="8" cy="-5" r="3" fill="#000"/>
+    <ellipse cx="0" cy="2" rx="3" ry="2" fill="#000"/>
+    <path d="M-4 6 Q0 10 4 6" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- Sparkle the Unicorn (right) -->
+  <g transform="translate(680, 150)">
+    <ellipse cx="0" cy="0" rx="25" ry="20" fill="#f9fafb"/>
+    <path d="M0 -20 L5 -35 L-5 -35 Z" fill="#fbbf24"/>
+    <circle cx="-6" cy="-5" r="2" fill="#000"/>
+    <circle cx="6" cy="-5" r="2" fill="#000"/>
+    <ellipse cx="-15" cy="-15" rx="8" ry="12" fill="#ec4899"/>
+    <ellipse cx="15" cy="-15" rx="8" ry="12" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g fill="#fbbf24" opacity="0.7">
+    <path d="M150 50 L155 60 L165 55 L155 65 L150 75 L145 65 L135 55 L145 60 Z"/>
+    <path d="M650 80 L653 85 L658 82 L653 87 L650 92 L647 87 L642 82 L647 85 Z"/>
+    <path d="M350 300 L355 310 L365 305 L355 315 L350 325 L345 315 L335 305 L345 310 Z"/>
+  </g>
+  
+  <!-- Ground/grass -->
+  <rect x="0" y="300" width="800" height="100" fill="#22d3ee" opacity="0.3"/>
+  
+  <!-- Title text -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="36" font-weight="bold" fill="#0f766e">Crochet Critters by Ashley</text>
+  <text x="400" y="80" text-anchor="middle" font-family="Arial" font-size="18" fill="#0f766e">Handmade with love, treasured forever</text>
+</svg>

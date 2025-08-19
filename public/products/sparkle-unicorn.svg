@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="unicornGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="50%" stop-color="#fce7f3"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#unicornGrad)"/>
+  <!-- Main body -->
+  <ellipse cx="200" cy="230" rx="70" ry="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="3"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="130" rx="45" ry="35" fill="#fef2f2" stroke="#d1d5db" stroke-width="3"/>
+  <!-- Horn -->
+  <path d="M200 95 L210 55 L190 55 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Horn spiral -->
+  <path d="M195 85 Q205 75 195 65 Q205 55 195 45" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="185" cy="125" r="6" fill="#000"/>
+  <circle cx="215" cy="125" r="6" fill="#000"/>
+  <circle cx="187" cy="122" r="2" fill="#fff"/>
+  <circle cx="217" cy="122" r="2" fill="#fff"/>
+  <!-- Mane -->
+  <ellipse cx="170" cy="100" rx="20" ry="30" fill="#ec4899"/>
+  <ellipse cx="175" cy="80" rx="15" ry="25" fill="#f97316"/>
+  <ellipse cx="200" cy="70" rx="15" ry="25" fill="#eab308"/>
+  <ellipse cx="225" cy="80" rx="15" ry="25" fill="#10b981"/>
+  <ellipse cx="230" cy="100" rx="20" ry="30" fill="#3b82f6"/>
+  <ellipse cx="225" cy="120" rx="15" ry="25" fill="#8b5cf6"/>
+  <!-- Legs -->
+  <ellipse cx="160" cy="270" rx="12" ry="20" fill="#f9fafb"/>
+  <ellipse cx="200" cy="275" rx="12" ry="20" fill="#f9fafb"/>
+  <ellipse cx="240" cy="270" rx="12" ry="20" fill="#f9fafb"/>
+  <!-- Tail -->
+  <path d="M140 220 Q100 240 110 280 Q120 300 140 290" fill="none" stroke="#ec4899" stroke-width="8"/>
+  <path d="M140 220 Q100 240 110 280 Q120 300 140 290" fill="none" stroke="#f97316" stroke-width="6"/>
+  <path d="M140 220 Q100 240 110 280 Q120 300 140 290" fill="none" stroke="#eab308" stroke-width="4"/>
+  <!-- Sparkles -->
+  <g fill="#fbbf24">
+    <path d="M300 100 L305 110 L315 105 L305 115 L300 125 L295 115 L285 105 L295 110 Z"/>
+    <path d="M80 150 L83 155 L88 152 L83 157 L80 162 L77 157 L72 152 L77 155 Z"/>
+    <path d="M320 200 L325 210 L335 205 L325 215 L320 225 L315 215 L305 205 L315 210 Z"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#8b5cf6">Sparkle the Unicorn</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial" font-size="16" fill="#8b5cf6">$45.99</text>
+</svg>
