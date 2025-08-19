@@ -45,8 +45,8 @@ const HomePage: React.FC = () => {
                 <div className="absolute -top-4 -right-4 bg-yellow-400 rounded-full p-3 animate-bounce-gentle">
                   <Sparkles size={24} className="text-yellow-800" />
                 </div>
-                <div className="absolute -bottom-4 -left-4 bg-pink-400 rounded-full p-3 animate-bounce-gentle" style={{ animationDelay: '1s' }}>
-                  <Heart size={24} className="text-pink-800" />
+                <div className="absolute -bottom-4 -left-4 bg-pink-400 rounded-full p-3 animate-bounce-gentle-delayed">
+                  <Sparkles className="w-6 h-6 text-white" />
                 </div>
               </div>
             </div>

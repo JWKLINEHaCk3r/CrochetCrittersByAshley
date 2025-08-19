@@ -41,6 +41,7 @@ module.exports = {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.5s ease-out',
         'bounce-gentle': 'bounceGentle 2s infinite',
+        'bounce-gentle-delayed': 'bounceGentle 2s infinite 1s',
       },
       keyframes: {
         fadeIn: {

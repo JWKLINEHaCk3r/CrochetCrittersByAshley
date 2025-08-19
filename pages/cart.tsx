@@ -92,6 +92,7 @@ const CartPage: React.FC = () => {
                           <button
                             onClick={() => handleQuantityChange(item.id, item.quantity - 1)}
                             className="p-2 hover:bg-gray-100 transition-colors"
+                            aria-label={`Decrease quantity for ${item.name}`}
                           >
                             <Minus size={16} />
                           </button>
@@ -101,6 +102,7 @@ const CartPage: React.FC = () => {
                           <button
                             onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
                             className="p-2 hover:bg-gray-100 transition-colors"
+                            aria-label={`Increase quantity for ${item.name}`}
                           >
                             <Plus size={16} />
                           </button>
