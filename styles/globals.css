@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&display=swap');
 
 @layer base {
   * {
@@ -32,13 +32,39 @@
   }
 }
 
+.handwritten-title {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+@media (min-width: 1024px) {
+  .handwritten-title {
+    font-size: 4.5rem;
+  }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 3s ease-in-out infinite;
+}
+
+.animate-bounce-gentle-delayed {
+  animation: bounce-gentle 3s ease-in-out infinite 1.5s;
 }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.1) rotate(5deg); }
 }
 
 .gradient-bg {
@@ -47,4 +73,8 @@
 
 .critter-bg {
   background: linear-gradient(135deg, #a855f7 0%, #14b8a6 100%);
+}
+
+.ambient-purple-bg {
+  background: linear-gradient(135deg, #f3e8ff 0%, #e0e7ff 50%, #faf5ff 100%);
 }

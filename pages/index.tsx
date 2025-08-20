@@ -11,13 +11,30 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-100 to-purple-100 py-20 overflow-hidden">
-        <div className="container mx-auto px-4">
+      <section className="relative ambient-purple-bg py-20 overflow-hidden">
+        {/* Floating decorative elements */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-20 left-10 text-purple-300 animate-bounce-gentle">
+            <Sparkles size={32} />
+          </div>
+          <div className="absolute top-32 right-20 text-pink-300 animate-bounce-gentle-delayed">
+            <Heart size={28} />
+          </div>
+          <div className="absolute bottom-32 left-32 text-purple-400 animate-float">
+            <Star size={24} />
+          </div>
+          <div className="absolute bottom-20 right-32 text-pink-400 animate-bounce-gentle">
+            <Sparkles size={20} />
+          </div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
+              <h1 className="handwritten-title text-gray-800 mb-6">
                 Handmade
                 <span className="block text-primary-600">Crochet Critters</span>
+                <span className="text-2xl text-purple-600 font-normal">✨ Made with Love ✨</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Each adorable critter is lovingly handcrafted with premium yarn and attention to detail. 
@@ -32,7 +49,7 @@ const HomePage: React.FC = () => {
                 </Link>
               </div>
             </div>
-            <div className="lg:w-1/2 flex justify-center">
+            <div className="lg:w-1/2 flex justify-center relative">
               <div className="relative">
                 <div className="w-80 h-80 relative animate-float">
                   <Image 
@@ -48,6 +65,17 @@ const HomePage: React.FC = () => {
                 <div className="absolute -bottom-4 -left-4 bg-pink-400 rounded-full p-3 animate-bounce-gentle-delayed">
                   <Sparkles className="w-6 h-6 text-white" />
                 </div>
+              </div>
+              
+              {/* Cool floating logo */}
+              <div className="absolute -top-10 -right-10 w-32 h-32 animate-float">
+                <Image 
+                  src="/crochet-critters-logo.svg"
+                  alt="Crochet Critters by Ashley Logo"
+                  width={128}
+                  height={128}
+                  className="opacity-90 hover:opacity-100 transition-opacity"
+                />
               </div>
             </div>
           </div>
@@ -87,7 +115,7 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Featured Critters</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">Featured Items</h2>
             <p className="text-xl text-gray-600">Our most loved handmade creations</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -140,9 +168,9 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Newsletter */}
-      <section className="py-16 critter-bg">
+      <section className="py-16 bg-gradient-to-r from-purple-500 via-pink-500 to-purple-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">Stay Connected</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Stay Connected 💜</h2>
           <p className="text-xl text-white/90 mb-8">Get updates on new critters and special offers!</p>
           <div className="max-w-md mx-auto">
             <div className="flex gap-4">
@@ -151,8 +179,8 @@ const HomePage: React.FC = () => {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-white/50"
               />
-              <button className="bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Subscribe
+              <button className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
+                Subscribe ✨
               </button>
             </div>
           </div>

@@ -15,14 +15,14 @@ const Header: React.FC = () => {
   const toggleProfile = () => setIsProfileOpen(!isProfileOpen)
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-gradient-to-r from-purple-100 to-purple-200 shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 relative">
               <Image 
-                src="/logo.svg" 
+                src="/crochet-critters-logo.svg" 
                 alt="Crochet Critters by Ashley"
                 width={48}
                 height={48}
@@ -92,6 +92,15 @@ const Header: React.FC = () => {
                     >
                       My Orders
                     </Link>
+                    {user.email === 'akline1812@gmail.com' && (
+                      <Link 
+                        href="/admin/dashboard" 
+                        className="block px-4 py-2 text-sm text-purple-700 hover:bg-purple-50 border-t border-gray-100"
+                        onClick={() => setIsProfileOpen(false)}
+                      >
+                        🔐 Admin Dashboard
+                      </Link>
+                    )}
                     <button 
                       onClick={() => {logout(); setIsProfileOpen(false)}}
                       className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"

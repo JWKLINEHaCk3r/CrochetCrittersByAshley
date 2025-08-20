@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- CROCHET CRITTERS text (top arc) -->
+  <path id="top-arc" d="M 150 150 A 250 250 0 0 1 650 150" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#7dd3fc">
+    <textPath href="#top-arc" startOffset="0%">CROCHET CRITTERS</textPath>
+  </text>
+  
+  <!-- Snail body -->
+  <ellipse cx="400" cy="350" rx="180" ry="120" fill="#a855f7" opacity="0.9"/>
+  
+  <!-- Snail shell -->
+  <circle cx="400" cy="320" r="100" fill="#67e8f9"/>
+  <circle cx="400" cy="320" r="80" fill="#38bdf8"/>
+  <circle cx="400" cy="320" r="60" fill="#0ea5e9"/>
+  
+  <!-- Shell spiral -->
+  <path d="M 400 320 Q 420 300 440 320 Q 420 340 400 320 Q 380 300 360 320 Q 380 340 400 320" 
+        fill="none" stroke="#1e40af" stroke-width="3"/>
+  
+  <!-- Snail head -->
+  <ellipse cx="280" cy="380" rx="60" ry="80" fill="#a855f7"/>
+  
+  <!-- Antennae -->
+  <line x1="260" y1="340" x2="240" y2="310" stroke="#000" stroke-width="3"/>
+  <line x1="280" y1="335" x2="260" y2="305" stroke="#000" stroke-width="3"/>
+  <circle cx="240" cy="310" r="8" fill="#38bdf8"/>
+  <circle cx="260" cy="305" r="8" fill="#38bdf8"/>
+  
+  <!-- Eyes -->
+  <circle cx="270" cy="360" r="5" fill="#000"/>
+  <circle cx="290" cy="365" r="5" fill="#000"/>
+  
+  <!-- Decorative scales on body -->
+  <g fill="#8b5cf6" opacity="0.7">
+    <path d="M 320 400 Q 330 390 340 400 Q 330 410 320 400"/>
+    <path d="M 350 410 Q 360 400 370 410 Q 360 420 350 410"/>
+    <path d="M 380 420 Q 390 410 400 420 Q 390 430 380 420"/>
+    <path d="M 410 420 Q 420 410 430 420 Q 420 430 410 420"/>
+    <path d="M 440 410 Q 450 400 460 410 Q 450 420 440 410"/>
+    <path d="M 470 400 Q 480 390 490 400 Q 480 410 470 400"/>
+  </g>
+  
+  <!-- BY ASHLEY text (bottom arc) -->
+  <path id="bottom-arc" d="M 250 480 A 150 150 0 0 0 550 480" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#7dd3fc">
+    <textPath href="#bottom-arc" startOffset="25%">BY ASHLEY</textPath>
+  </text>
+</svg>
