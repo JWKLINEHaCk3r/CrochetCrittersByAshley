@@ -1,6 +1,6 @@
 import { Product } from '../context/CartContext'
 
-export const sampleProducts: Product[] = [
+export const products: Product[] = [
   {
     id: '1',
     name: 'Sunny the Snail',
@@ -106,3 +106,6 @@ export const categories = [
   'Prehistoric Pals',
   'Magical Creatures'
 ]
+
+// Backward compatibility
+export const sampleProducts = products;
